@@ -1,0 +1,58 @@
+.titlecard 
+{
+    background-color: rgb(72, 72, 72);
+    color: rgb(227, 227, 227);
+    border-radius: 5px;
+}
+
+.container {
+    background-color: beige;
+}
+
+.container input {
+    background-color: rgb(227, 227, 217);
+}
+
+.container button{
+    background-color: rgb(72, 72, 72);
+    color: rgb(227, 227, 227);
+    box-shadow: 2px 4px 0px 1px rgb(0 0 0);
+    margin: 0.1rem;
+    font-size: calc(4px + 2vmin);
+
+}
+.container button:hover{
+    color: white;
+
+}
+
+.container button:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+    color: white;
+
+}
+
+.alert-secondary{
+    background-color: rgb(72, 72, 72);
+    color: rgb(227, 227, 227);
+    animation: fadeIn 2s; 
+
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.fadeOut{
+    animation: fadeOut 3s;
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+
+}
+
+
